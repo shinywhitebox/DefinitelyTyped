@@ -34,6 +34,8 @@ declare namespace gapi.client {
 
     const teamdrives: drive.TeamdrivesResource;
 
+    const drive : any;
+    
     namespace drive {
         interface About {
             /** Whether the user has installed the requesting app. */

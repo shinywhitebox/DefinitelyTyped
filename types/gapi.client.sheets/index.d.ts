@@ -18,6 +18,8 @@ declare namespace gapi.client {
 
     const spreadsheets: sheets.SpreadsheetsResource;
 
+    const sheets : any;
+    
     namespace sheets {
         interface AddBandingRequest {
             /**
